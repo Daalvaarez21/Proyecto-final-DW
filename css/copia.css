@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    background:#050259;
+    height: 80px;
+}
+
+.ancho-menu{
+width: 70%;
+height: 70px;
+background: #050259;
+margin: auto;
+}
+
+.logo{
+    width: 30%;
+    height: 70px;
+    background: #050259;
+    float: left;
+    padding-top: 12px;
+    box-sizing: border-box;
+}
+
+.logo {
+    transition: all 1s;
+}
+
+.logo:hover {
+    transform: scale(1.5);
+}
+
+.logo p a{
+    color: #f23827;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.menu-contenido{
+    width: 70%;
+    height: 70px;
+    background: #050259;
+    float: left;
+    text-align: right;
+    padding-top: 30px;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.menu-contenido ul li{
+    display: inline;
+}
+
+.menu-contenido ul li a {
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+.menu-contenido ul li a:hover {
+    color: #f23827;
+}
+
+.imagenes-inicio img {
+    width: 100%;
+    height: 500px;
+}
+
+/*Seccion Productos*/
+
+.columna {
+    border: 2px solid black;
+    
+}
+
+.fila {
+    border: 1px solid black;
+}
+
+
+
+
+
+/*seccion nosotros*/
+article {
+    width: 100%;
+    background:#050259;
+    height: 500px;
+}
+
+.parrafo-1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: auto;
+    color: blanchedalmond;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+/*seccion contacto*/
+
+.form-contacto {
+    width: 400px;
+    background:#050259;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family:'Bebas Neue', cursive;
+    color:blanchedalmond;
+}
+
+.controls {
+    width: 100%;
+    background:gray;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: #6204bf;
+    font-family:'Bebas Neue', cursive;
+    font-size: 20px;
+
+}
+
+.form-contacto .bottom-contacto {
+    width: 100%;
+    background: #f23827;
+    border: none;
+    padding: 12px;
+    color: blanchedalmond;
+    margin: 16px 0;
+    font-size: 16px;
+} 
+ 
+
+
+
+
+
+footer {
+    width: 100%;
+    background: #6204bf; 
+    color:#f23827;
+}
+
+
+.container-footer {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: end;
+}
+
+.columna1 {
+    width: 400px;
+}
+
+.columna1 h1 {
+    font-size: 22px;
+}
+
+.columna1 p {
+    font-size: 19px;
+    color: blanchedalmond;
+    margin-top: 20px;
+}
+
+.columna2 h1 {
+    font-size: 22px;
+}
+
+.fila1 {
+    margin-top: 19px;
+    display: flex;
+    font-size: 19px;
+}
+
+.fila1 img {
+    width: 36px;
+    height: 36px;
+}
+.fila1 label {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: blanchedalmond;
+}
+
+
+.columna3 {
+    max-width: 400px;
+}
+
+.columna3 h1 {
+    font-size: 22px;
+}
+
+.fila2 {
+    margin-top: 20px;
+    display: flex;
+    font-size: 19px;
+}
+
+.fila2 img {
+    width: 36px;
+    height: 36px;
+}
+
+.fila2 label {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: blanchedalmond;
+}
+
+
+
+
