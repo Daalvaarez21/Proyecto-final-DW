@@ -4,119 +4,48 @@
   box-sizing: border-box;
 }
 
-/*navbar*/
-/*header{
-    width: 100%;
-    background:#050259;
-    height: 80px;
-
-    .ancho-menu{
-        width: 70%;
-        height: 70px;
-        background: #050259;
-        margin: auto;
-
-
-        .logo{
-            width: 30%;
-            height: 70px;
-            background: #050259;
-            float: left;
-            padding-top: 12px;
-            box-sizing: border-box;
-
-            transition: all 1s;
-
-            &:hover {
-                transform: scale(1.5);
-            }
-
-            p a{
-                color: #f23827;
-                font-family: 'Bebas Neue', cursive;
-                font-size: 50px;
-                text-decoration: none;
-            }
-
-        }
-        .menu-contenido{
-            width: 70%;
-            height: 70px;
-            background: #050259;
-            float: left;
-            text-align: right;
-            padding-top: 30px;
-            box-sizing: border-box;
-            font-family: 'Bebas Neue', cursive;
-
-         ul li{
-                display: inline;
-                list-style: none;
-
-             a {
-                    color: aliceblue;
-                    font-size: 20px;
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    padding-left: 20px;
-                    letter-spacing: 2px;
-
-                    &:hover{
-                        color: #f23827;
-                    }
-                }
-            }
-        }
-
-
-        }
-}*/
-.navbar-style {
+header .navbar-style {
   background-color: #050259;
-  width: 100% auto;
-  height: 80px;
-  padding: 3px;
+  margin-left: 10px;
 }
-.navbar-style .navbar-contenido {
-  margin-left: 500px;
-  margin-top: 10px;
-}
-.navbar-style .navbar-contenido .navbar-items {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
+header .navbar-style a {
   font-family: "Bebas Neue", cursive;
-  font-size: large;
-}
-.navbar-style .navbar-icono {
-  box-sizing: border-box;
-  transition: all 1s;
-  text-decoration: none;
-  margin-left: 30px;
-  margin-bottom: 6px;
-}
-.navbar-style .navbar-icono:hover {
-  transform: scale(0.9);
-}
-
-/*seccion productos*/
-/*gordo*/
-/*seccion nosotros*/
-.article-nosotros {
-  width: 100%;
-  background: #050259;
-  height: 500px;
-}
-.article-nosotros .parrafo-1 {
-  font-family: "Source Sans Pro", sans-serif;
-  margin: auto;
-  color: blanchedalmond;
-  text-align: center;
+  font-size: 16px;
   letter-spacing: 2px;
-  text-decoration: none;
-  font-size: 20px;
+}
+header .navbar-style a:hover {
+  color: #f23827;
 }
 
+/*seccion nuevo*/
+.styles-bottons {
+  font-size: 30px;
+  color: #30cff2;
+  font-family: "Bebas Neue", cursive;
+}
+
+.fondos {
+  background-color: #050259;
+}
+
+.colores-sub {
+  color: white;
+  font-size: 20px;
+  font-family: "PT Sans Narrow", sans-serif;
+  letter-spacing: 2px;
+}
+
+.colores-etiquetas {
+  color: #f23827;
+  letter-spacing: 2px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.iconos-sub {
+  color: #8b09ff;
+}
+
+/*seccion nuevo*/
 /*seccion contacto*/
 .formulario {
   background-color: #050259;
@@ -127,63 +56,16 @@
 }
 
 footer {
-  width: 100%;
-  background: #6204bf;
+  background-color: #050259;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  color: blanchedalmond;
+}
+footer ul li a:hover {
   color: #f23827;
-}
-footer .container-footer {
-  display: flex;
-  justify-content: space-around;
-  font-family: "Source Sans Pro", sans-serif;
-  margin-bottom: end;
-}
-footer .container-footer .columna1 {
-  width: 400px;
-}
-footer .container-footer .columna1 h1 {
-  font-size: 22px;
-}
-footer .container-footer .columna1 h1 p {
-  font-size: 19px;
-  color: blanchedalmond;
-  margin-top: 20px;
-}
-footer .container-footer .columna2 h1 {
-  font-size: 22px;
-}
-footer .container-footer .fila1 {
-  margin-top: 19px;
-  display: flex;
-  font-size: 19px;
-}
-footer .container-footer .fila1 img {
-  width: 36px;
-  height: 36px;
-}
-footer .container-footer .fila1 label {
-  margin-top: 10px;
-  margin-left: 20px;
-  color: blanchedalmond;
-}
-footer .container-footer .columna3 {
-  max-width: 400px;
-}
-footer .container-footer .columna3 .columna3 h1 {
-  font-size: 22px;
-}
-footer .container-footer .fila2 {
-  margin-top: 20px;
-  display: flex;
-  font-size: 19px;
-}
-footer .container-footer .fila2 img {
-  width: 36px;
-  height: 36px;
-}
-footer .container-footer .fila2 label {
-  margin-top: 10px;
-  margin-left: 20px;
-  color: blanchedalmond;
 }
 
 /*# sourceMappingURL=style.css.map */
