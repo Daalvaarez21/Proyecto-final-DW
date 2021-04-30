@@ -161,12 +161,19 @@ footer {
 }
 footer ul li {
   list-style: none;
+  font-family: "Bebas Neue", cursive;
 }
 footer ul li a {
   color: blanchedalmond;
 }
 footer ul li a:hover {
   color: #f23827;
+}
+footer p {
+  font-family: "Bebas Neue", cursive;
+}
+footer .contact-us {
+  font-family: "Bebas Neue", cursive;
 }
 
 /*# sourceMappingURL=style.css.map */
